@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista | Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. STICKY NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Fashionista</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search products...">
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Login</a>
+            <a href="#">Cart 🛒</a>
+        </div>
+    </nav>
+
+
+    <!-- 2. HERO BANNER -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>New Season Arrivals</h1>
+            <p>Discover the latest trends in fashion.</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+
+    <!-- 3. FLASH SALE STRIP -->
+    <div class="flash-sale">
+        <span>🔥 FLASH SALE: 50% OFF on all Items • Limited Time Only!</span>
+    </div>
+
+
+    <!-- 4. MAIN LAYOUT (Filters + Products) -->
+    <div class="layout">
+
+        <!-- 5. FILTER SIDEBAR -->
+        <aside class="sidebar">
+
+            <h3>Filters</h3>
+
+            <p class="filter-title">Category</p>
+            <label><input type="checkbox"> Men</label>
+            <label><input type="checkbox"> Women</label>
+            <label><input type="checkbox"> Accessories</label>
+
+            <p class="filter-title">Price</p>
+            <label><input type="checkbox"> Under ₹500</label>
+            <label><input type="checkbox"> ₹500–₹1000</label>
+            <label><input type="checkbox"> Above ₹1000</label>
+
+            <p class="filter-title">Color</p>
+            <label><input type="checkbox"> Black</label>
+            <label><input type="checkbox"> White</label>
+            <label><input type="checkbox"> Blue</label>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main>
+
+            <!-- 6. FEATURED CATEGORIES -->
+            <section class="categories">
+                <h2>Featured Categories</h2>
+
+                <div class="category-grid">
+                    <div class="cat-card">
+                        <img src="https://source.unsplash.com/400x400/?men-fashion" alt="">
+                        <p>Men</p>
+                    </div>
+
+                    <div class="cat-card">
+                        <img src="https://source.unsplash.com/400x400/?women-fashion" alt="">
+                        <p>Women</p>
+                    </div>
+
+                    <div class="cat-card">
+                        <img src="https://source.unsplash.com/400x400/?accessories" alt="">
+                        <p>Accessories</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 7. PRODUCT GRID -->
+            <section class="products">
+                <h2>New Arrivals</h2>
+
+                <div class="product-grid">
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?tshirt" alt="">
+                        <h3>T-Shirt</h3>
+                        <p>₹599</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?jacket" alt="">
+                        <h3>Jacket</h3>
+                        <p>₹1499</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?hoodie" alt="">
+                        <h3>Hoodie</h3>
+                        <p>₹899</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?jeans" alt="">
+                        <h3>Jeans</h3>
+                        <p>₹999</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 8. BEST SELLERS -->
+            <section class="best-sellers">
+                <h2>Best Sellers</h2>
+
+                <div class="product-grid">
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?shoes" alt="">
+                        <h3>Sneakers</h3>
+                        <p>₹1999</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?saree" alt="">
+                        <h3>Saree</h3>
+                        <p>₹899</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://source.unsplash.com/400x400/?watch" alt="">
+                        <h3>Watch</h3>
+                        <p>₹499</p>
+                        <button>Add to Cart</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 9. TESTIMONIALS -->
+            <section class="testimonials">
+                <h2>What Our Customers Say</h2>
+
+                <div class="test-grid">
+
+                    <div class="test-card">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg">
+                        <p>"Amazing quality and fast delivery!"</p>
+                    </div>
+
+                    <div class="test-card">
+                        <img src="https://randomuser.me/api/portraits/men/2.jpg">
+                        <p>"The best online fashion store!"</p>
+                    </div>
+
+                    <div class="test-card">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg">
+                        <p>"Great prices and beautiful designs."</p>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 10. NEWSLETTER -->
+            <section class="newsletter">
+                <h2>Join Our Newsletter</h2>
+
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </form>
+            </section>
+
+        </main>
+    </div>
+
+
+    <!-- 11. FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>Fashionista</h3>
+                <p>Your trusted fashion brand.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+
+        <p class="copyright">© 2025 Fashionista. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
